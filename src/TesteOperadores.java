@@ -7,7 +7,7 @@ public class TesteOperadores extends JFrame {
     private JTextField txtDen;
     private JButton btnDividir;
     private JLabel lblDiv;
-    private JLabel lblResto;
+    private JLabel lblRes;
     private JPanel painelPrincipal;
 
     public TesteOperadores(){
@@ -23,9 +23,9 @@ public class TesteOperadores extends JFrame {
                 int n = Integer.parseInt(txtNum.getText());
                 int d = Integer.parseInt(txtDen.getText());
                 float div = n / d;
-                float res = n % d;
+                float res = (float) Math.sqrt(n);
                 lblDiv.setText(Float.toString(div));
-                lblResto.setText(Float.toString(res));
+                lblRes.setText(Float.toString(res));
             }
         });
     }
