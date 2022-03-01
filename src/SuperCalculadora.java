@@ -15,7 +15,7 @@ public class SuperCalculadora extends JFrame {
 
     public SuperCalculadora () {
         setContentPane(painelPrincipal);
-        setTitle("Ano de nascimento");
+        setTitle("Super Calculadora");
         setSize(350, 200);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
